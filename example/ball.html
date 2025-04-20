@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang=EN-us>
+   <head>
+      <meta charset=utf-8>
+      <meta content="text/html; charset=utf-8"http-equiv=Content-Type>
+      <title>raylib web game</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+   </head>
+   <body>
+      <div id=header>
+         <div class=spinner id=spinner></div>
+         <div class=emscripten id=status>Downloading...</div>
+         <div class=emscripten><progress hidden id=progress max=100 value=0></progress></div>
+      </div>
+      <div class="emscripten_border">
+         <canvas class="emscripten" id=canvas oncontextmenu=event.preventDefault() tabindex=-1></canvas>
+      </div>
+      <script src=webgl.js async></script>
+      <script src=ball.js async></script>
+   </body>
+</html>
