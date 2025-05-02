@@ -15,7 +15,7 @@ IMPORTANT (**  **, have this around them)
 │   ├── Project.c           # Terminal version (hashmap + tree)  
 │   ├── uthash.h            # Hashmap header (included)  
 │
-├── gui/  
+├── gui/  (This was changed to docs)
 │   ├── main.c              # Raylib GUI version  
 │   ├── Makefile            # Emscripten build rules  
 │   ├── index.html          # Web page loader  
