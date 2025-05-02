@@ -11,11 +11,11 @@ IMPORTANT (**  **, have this around them)
 ## 📂 Repository Structure
 
 /
-├── console/  
+├── Console/  
 │   ├── Project.c           # Terminal version (hashmap + tree)  
 │   ├── uthash.h            # Hashmap header (included)  
 │
-├── gui/  (This was changed to docs)
+├── GUI/  
 │   ├── main.c              # Raylib GUI version  
 │   ├── Makefile            # Emscripten build rules  
 │   ├── index.html          # Web page loader  
